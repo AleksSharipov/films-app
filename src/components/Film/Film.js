@@ -21,7 +21,7 @@ export default function Film({film, handleCardClick}){
       <h2 className="film_title">{film.title_english} ({film.year})</h2>
       {/* <p>Year: </p> */}
       <div className="film_description"> 
-        <p>Reting: {film.rating}</p>
+        <p>Rating: {film.rating}</p>
         <button onClick={handleClick} className="film_btn">Add comment</button>
       </div>
       
